@@ -1,4 +1,4 @@
-package com.piby.ecommerce.entities;
+package com.piby.boot_test.entities;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

@@ -1,8 +1,15 @@
-package com.piby.ecommerce.services;
+package com.piby.boot_test.services;
+
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Profile;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.ResourceLoader;
 import org.springframework.data.domain.Page;
@@ -16,16 +23,10 @@ import org.springframework.util.FileCopyUtils;
 import org.springframework.util.FileSystemUtils;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.piby.ecommerce.entities.Image;
-import com.piby.ecommerce.entities.User;
-import com.piby.ecommerce.repository.ImageRepository;
-import com.piby.ecommerce.repository.UserRepository;
-
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
+import com.piby.boot_test.entities.Image;
+import com.piby.boot_test.entities.User;
+import com.piby.boot_test.repository.ImageRepository;
+import com.piby.boot_test.repository.UserRepository;
 
 @Service
 public class ImageService {
@@ -80,7 +81,7 @@ public class ImageService {
     }
 
     @Bean
-//    @Profile("dev")
+//  @Profile("dev")
     CommandLineRunner setUp(ImageRepository imageRepository, UserRepository userRepository) throws IOException {
 
         return (args) -> {

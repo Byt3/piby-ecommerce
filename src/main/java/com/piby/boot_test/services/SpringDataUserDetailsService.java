@@ -1,4 +1,4 @@
-package com.piby.ecommerce.services;
+package com.piby.boot_test.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
@@ -7,8 +7,8 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Component;
 
-import com.piby.ecommerce.entities.User;
-import com.piby.ecommerce.repository.UserRepository;
+import com.piby.boot_test.entities.User;
+import com.piby.boot_test.repository.UserRepository;
 
 import java.util.stream.Collectors;
 import java.util.stream.Stream;

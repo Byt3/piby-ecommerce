@@ -1,8 +1,8 @@
-package com.piby.ecommerce.repository;
+package com.piby.boot_test.repository;
 
 import org.springframework.data.repository.CrudRepository;
 
-import com.piby.ecommerce.entities.User;
+import com.piby.boot_test.entities.User;
 
 /**
  * Created by marco on 30/11/2016.

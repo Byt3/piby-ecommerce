@@ -1,4 +1,4 @@
-package com.piby.ecommerce.indicators;
+package com.piby.boot_test.indicators;
 //package com.piby.springboot.indicators;
 //
 //import java.io.IOException;

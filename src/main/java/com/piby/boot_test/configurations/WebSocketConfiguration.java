@@ -1,4 +1,4 @@
-package com.piby.ecommerce.configurations;
+package com.piby.boot_test.configurations;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.messaging.simp.config.MessageBrokerRegistry;

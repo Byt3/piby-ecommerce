@@ -1,4 +1,4 @@
-package com.piby.ecommerce.controllers;
+package com.piby.boot_test.controllers;
 
 import java.io.IOException;
 
@@ -20,8 +20,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import com.piby.ecommerce.entities.Image;
-import com.piby.ecommerce.services.ImageService;
+import com.piby.boot_test.entities.Image;
+import com.piby.boot_test.services.ImageService;
 
 /**
  * Created by marco on 28/11/2016.
